@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mtlpuw78i84p/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp main.css $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
